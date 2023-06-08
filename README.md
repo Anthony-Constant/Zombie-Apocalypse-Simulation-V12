@@ -1,55 +1,57 @@
-<h1>ZOMBIE APOCALYPSE SIMULATION V12</h1>
+# ZOMBIE APOCALYPSE SIMULATION V12
 
-<h2>WHAT IS IT?</h2>
+## WHAT IS IT?
 
-<p>The agents in this model are HUMANS and ZOMBIES however, humans turn into zombies if they encounter a zombie and get bitten.</p>
+The agents in this model are HUMANS and ZOMBIES. However, humans turn into zombies if they encounter a zombie and get bitten.
 
-<p>Zombies are reflex agents that always attack when confronted by a human. Humans are rational agents that make decisions based on their immediate enviroment and the actions they can take at that moment.</p>
+Zombies are reflex agents that always attack when confronted by a human. Humans are rational agents that make decisions based on their immediate environment and the actions they can take at that moment.
 
-<h2>HOW IT WORKS</h2>
+## HOW IT WORKS
 
-<p>There are two main agents in this model, Zombies and Humans. The enviroment spawns two objects randomly anywhere on the map to help assist the humans to defeat the zombies. Food to regain their health when neccesary and weapons to have a fighting chance to defeat and kill the zombies. Food are denoted as a yellow fish icon and weapons are denoted as yellow 'x's.</p>
+There are two main agents in this model: Zombies and Humans. The environment spawns two objects randomly anywhere on the map to help assist the humans to defeat the zombies. Food is used to regain health when necessary, and weapons provide a fighting chance to kill the zombies. Food is denoted as a yellow fish icon, and weapons are denoted as yellow 'x's.
 
-<p>In addition, the humans own the following abilities: Robustness to become strong, Speed variation to increase speed and Vision cone to be able to see the zombies and flee.</p>
+In addition, humans have the following abilities: Robustness to become strong, Speed variation to increase speed, and Vision cone to be able to see the zombies and flee.
 
-<p>Furthermore, there are building/s that humans can pass through however, the zombies CANNOT pass through the buildings which makes the building a sort of SAFE ZONE for the humans.</p>
+Furthermore, there are buildings that humans can pass through. However, the zombies CANNOT pass through the buildings, which makes the buildings a sort of SAFE ZONE for the humans.
 
-<p>If a zombie wins a fight and reduces the humans health to 0 then it bites the human, and the human turns into a zombie. Otherwise, the human may flee from the zombie or fight and kill the zombie using their weapon to avoid becoming infected.</p>
+If a zombie wins a fight and reduces the human's health to 0, the human turns into a zombie. Otherwise, the human may flee from the zombie or fight and kill the zombie using their weapon to avoid becoming infected.
 
-<h2>HOW TO USE IT</h2>
+## HOW TO USE IT
 
-<h3>Buttons</h3>
+### Buttons
 
-<ul>
-  <li><strong>SET-UP:</strong> resets the simulation and to get ready</li>
-  <li><strong>GO (FOREVER):</strong> to run the simulation and watch in action</li>
-</ul>
+- **SET-UP:** Resets the simulation and gets ready.
+- **GO (FOREVER):** Runs the simulation and watches it in action.
 
-<h3>Sliders</h3>
+### Sliders
 
-<ul>
-  <li><strong>number_of_humans:</strong> to increase the amount of humans that are placed</li>
-  <li><strong>humans_speed:</strong> to increase the speed variation of the humans</li>
-  <li><strong>bwr:</strong> to increase the range of the degree humans turn away from zombies</li>
-  <li><strong>vis_rad:</strong> to increase the radius of the vision cone</li>
-  <li><strong>vis_ang:</strong> to increase the angle of the vision cone</li>
-  <li><strong>number_of_zombie:</strong> to increase the amount of zombies placed</li>
-  <li><strong>zombie_speed:</strong> to increase the speed variation of the zombies</li>
-  <li><strong>pwr:</strong> to increase the range of the degree zombies turn to humans</li>
-</ul>
+- **number_of_humans:** Increases the number of humans that are placed.
+- **humans_speed:** Increases the speed variation of the humans.
+- **bwr:** Increases the range of the degree humans turn away from zombies.
+- **vis_rad:** Increases the radius of the vision cone.
+- **vis_ang:** Increases the angle of the vision cone.
+- **number_of_zombies:** Increases the number of zombies placed.
+- **zombie_speed:** Increases the speed variation of the zombies.
+- **pwr:** Increases the range of the degree zombies turn to humans.
 
-<h3>Switch</h3>
+### Switch
 
-<ul>
-  <li><strong>show_col_rad:</strong> to enable the radius around the human</li>
-  <li><strong>show_vis_cone:</strong> to enable the vision cone function</li>
-</ul>
+- **show_col_rad:** Enables the radius around the human.
+- **show_vis_cone:** Enables the vision cone function.
 
-<h3>Monitors</h3>
+### Monitors
 
-<ul>
-  <li><strong>Zombies:</strong> monitors the amount zombies are left</li>
-  <li><strong>Humans:</strong> monitors the amount of humans left</li>
-  <li><strong>Food:</strong> monitors the amount of food left</li>
-  <li><strong>Weapon:</strong> monitors the amount of weapons left</li>
-</
+- **Zombies:** Monitors the number of zombies left.
+- **Humans:** Monitors the number of humans left.
+- **Food:** Monitors the amount of food left.
+- **Weapon:** Monitors the number of weapons left.
+
+Please refer to the original source for a complete understanding of the simulation.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+## Acknowledgements
+
+This script was developed by [Anthony Constant](https://anthonyconstant.co.uk/).
